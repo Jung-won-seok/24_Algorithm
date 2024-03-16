@@ -6,7 +6,7 @@ public class beak_9093 {
         System.out.println("문장 개수를 입력하세요:");
         int T = sc.nextInt();
         sc.nextLine();
-        for (int i = 0; i < T; i++) {
+        for (int i = 0; i<T; i++) {
             System.out.println("문장을 입력하세요:");
             String sentence = sc.nextLine();
             String[] words = sentence.split("\\s+");
