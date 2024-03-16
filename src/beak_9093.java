@@ -5,14 +5,14 @@ public class beak_9093 {
         Scanner scanner = new Scanner(System.in);
 
         System.out.println("문장 개수를 입력하세요:");
-        int sentenceCount = scanner.nextInt();
+        int T = scanner.nextInt();
         scanner.nextLine();
 
-        for (int i = 0; i < sentenceCount; i++) {
+        for (int i = 0; i < T; i++) {
             System.out.println("문장을 입력하세요:");
-            String sentence = scanner.nextLine();
+            String change_before = scanner.nextLine();
 
-            String[] words = sentence.split("\\s+");
+            String[] words = change_before.split("\\s+");
             for (String word : words) {
                 System.out.print(reverseString(word) + " ");
             }
@@ -22,10 +22,10 @@ public class beak_9093 {
     }
 
     public static String reverseString(String str) {
-        char[] charArray = str.toCharArray();
+        char[] charArray = str.toCharArray(); //문자열 str을 charArray배열에 문자 단위로 대입
 
         int left = 0;
-        int right = charArray.length - 1;
+        int right = charArray.length - 1; //문자열을 이루는 갯수 -1
         while (left < right) {
             char temp = charArray[left];
             charArray[left] = charArray[right];
