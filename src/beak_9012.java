@@ -7,7 +7,7 @@ public class beak_9012 {
         int T = sc.nextInt();
         sc.nextLine();
 
-        for (int i = 0; i < T; i++) {
+        for (int i = 0; i < T;i++) {
             String input = sc.nextLine();
             if (isValidParentheses(input)) {
                 System.out.println("YES");
