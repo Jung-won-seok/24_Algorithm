@@ -2,15 +2,14 @@ import java.util.Scanner;
 
 public class beak_9093 {
     public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
-
+        Scanner sc = new Scanner(System.in);
         System.out.println("문장 개수를 입력하세요:");
-        int T = scanner.nextInt();
-        scanner.nextLine();
+        int T = sc.nextInt();
+        sc.nextLine();
 
         for (int i = 0; i < T; i++) {
             System.out.println("문장을 입력하세요:");
-            String change_before = scanner.nextLine();
+            String change_before = sc.nextLine();
 
             String[] words = change_before.split("\\s+");
             for (String word : words) {
@@ -18,7 +17,7 @@ public class beak_9093 {
             }
             System.out.println();
         }
-        scanner.close();
+        sc.close();
     }
 
     public static String reverseString(String str) {
