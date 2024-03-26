@@ -47,7 +47,7 @@ public class beak_1935 {
             }
         }
         double ans = stack.pop();
-        System.out.printf("%.2f\n", ans);
+        System.out.printf("%.2f\n", ans); //소수2째자리까지 출력
 
     }
 
