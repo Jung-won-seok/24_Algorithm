@@ -1,3 +1,5 @@
+package beakjoon;
+
 import java.util.Scanner;
 
 public class beak_10808 {
