@@ -17,7 +17,7 @@ public class beak_10872 {
     }
 
     //팩토리얼 구하는 공식
-    static int factorial(int N)
+    private static int factorial(int N)
     {
         int result = 1; //0과 1 팩토리얼은 1이기 때문에 1부터 시작
 
