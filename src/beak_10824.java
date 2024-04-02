@@ -1,5 +1,3 @@
-package beakjoon;
-
 import java.util.Scanner;
 public class beak_10824 {
     public static void main(String[] args) {

@@ -1,5 +1,3 @@
-package beakjoon;
-
 import java.util.ArrayList;
 import java.util.Scanner;
 

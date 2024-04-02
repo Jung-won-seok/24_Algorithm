@@ -1,5 +1,3 @@
-package beakjoon;
-
 import java.io.*;
 
 public class beak_10872 {

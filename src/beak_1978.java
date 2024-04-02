@@ -1,5 +1,3 @@
-package beakjoon;
-
 import java.io.*;
 import java.util.StringTokenizer;
 

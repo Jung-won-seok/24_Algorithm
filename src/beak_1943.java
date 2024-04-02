@@ -1,5 +1,3 @@
-package beakjoon;
-
 import java.io.*;
 import java.util.Scanner;
 import java.util.StringTokenizer;
@@ -22,7 +20,7 @@ public class beak_1943 {
         br.close();
     }
 
-    public static int gcd(int a, int b) {
+    private static int gcd(int a, int b) {
         if(b==0)
             return a;
         return gcd(b, a%b);
