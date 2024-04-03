@@ -6,8 +6,8 @@ public class beak_1373 {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(System.out));
         String S = br.readLine();
-        BigInteger N = new BigInteger(S, 2);
-        String result = N.toString(8);
+        BigInteger N = new BigInteger(S, 2); //문자열S를 2진수로 변환 후 문자열로 저장
+        String result = N.toString(8); //N을 8진수 문자열로 변환
         bw.write(result+"\n");
 
         bw.flush();
