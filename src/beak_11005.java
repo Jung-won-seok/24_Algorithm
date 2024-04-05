@@ -12,6 +12,6 @@ public class beak_11005 {
         int B = Integer.parseInt(br.readLine());
 
         //BigInteger result = new BigInteger(N, 10);
-        System.out.println(Integer.toString(N,B).toUpperCase());
+        System.out.println(Integer.toString(N,B).toUpperCase());  //N을 B진수로 변환 후 문자열로 변환, 대문자
     }
 }
