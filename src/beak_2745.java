@@ -9,7 +9,7 @@ public class beak_2745 {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         StringTokenizer st = new StringTokenizer(br.readLine());
 
-        String N = st.nextToken();
+        String N = st.nextToken(); //N은 B진법이다. 10진법으로 변환하라.
         int B = Integer.parseInt(st.nextToken());
         br.close();
 
