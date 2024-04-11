@@ -6,9 +6,9 @@ public class beak_2193{
     public static long d[];
     public static void main(String args[]) throws IOException{
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-        int count = Integer.parseInt(br.readLine());
-        d = new long[count+1];
-        System.out.println(Calculate(count));
+        int N = Integer.parseInt(br.readLine());
+        d = new long[N+1];
+        System.out.println(Calculate(N));
     }
 
     public static long Calculate(int count){
