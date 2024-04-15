@@ -6,7 +6,7 @@ public class beak_1107 {
         int N = sc.nextInt();
         int M = sc.nextInt();
         int[] error = new int[M];
-        for (int i = 0; i < M; i++) {
+        for (int i =0; i < M; i++) {
             error[i]= sc.nextInt();
         }
 
