@@ -2,14 +2,33 @@ import java.util.Scanner;
 
 public class practice {
     public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
-
-        String str1 = "Programming";
-        String str2 = "Programming";
-        String str3 = new String("Programming");
-
-        System.out.println(str1==str2);
-        System.out.println(str1==str3);
-        System.out.println(str1.equals(str3));
+        A b = new B();
+        b.paint();
+        b.draw();
     }
 }
+
+class A {
+    public void paint() {
+        System.out.println("A");
+        draw();
+    }
+    public void draw() {
+        System.out.println("B");
+        draw();
+    }
+}
+
+class B extends A {
+    public void paint() {
+        super.draw();
+        System.out.println("C");
+        this.draw();
+    }
+
+    @Override
+    public void draw() {
+        System.out.println("D");
+    }
+}
+
