@@ -21,7 +21,7 @@ public class beak_10972 {
         while(i>0 && nums[i-1] >= nums[i]) {
             i--;
         }
-        // i는 오른쪽에서부터 오름차순으로 가장 높은 수인 경우
+        // i는 오른쪽에서부터 오름차순으로 가장높은 수인 경우
         if(i<=0) return false;
 
         int j = nums.length-1;
