@@ -22,7 +22,7 @@ public class beak_15649_3 {
         for (int i = 0; i < N; i++) {
             if (!visit[i]) {
                 visit[i] = true;
-                arr[depth] = i = 1;
+                arr[depth] = i + 1;
                 dfs(N, M, depth + 1);
                 visit[i] = false;
             }
